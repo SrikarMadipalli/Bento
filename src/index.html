@@ -1,0 +1,252 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Bento</title>
+  <link rel="icon" type="image/png" href="./src/img/vegan.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="culinary">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./img/bento.png" alt="Bento">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#specials">Specials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Recommended">Recommended</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#MyCollections">Your Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social_icon_footer">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/">
+                <i class="fa fa-facebook light-green-text-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.twitter.com/">
+                <i class="fa fa-twitter light-green-text-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/">
+                <i class="fa fa-instagram light-green-text-2"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="home" class="view jarallax" style="background: url('./src/img/hero.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <div class="mask h-100 d-flex justify-content-center align-items-center rgba-black-light">
+        <div class="container">
+          <blockquote class="blockquote b-reverse smooth-scroll">
+            <div class="white-text text-right mr-3">
+              <!-- Search Bar -->
+              <div class="active-pink-3 active-pink-4 mb-4">
+                <input id="searchApi" class="form-control" type="text" placeholder="Enter the Restaurant..." aria-label="Search">
+              </div>
+              <!-- Search Done -->
+            </div>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <section id="specials" class="section feature-box text-center mt-5 mb-5">
+        <h2 class="section-heading text-center mb-5 text-uppercase font-weight-bold  ">Specials</h2>
+        <p class="text-center w-responsive mx-auto my-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis
+          ad voluptas, animi obcaecati adipisci sapiente mollitia.</p>
+        <div class="row ">
+          <div class="col-md-3 mb-5">
+            <div class="card card-body  blue lighten-3 hoverable">
+              <i class="fa fa-cutlery fa-3x mb-4 mt-3 white-text" aria-hidden="true"></i>
+              <h5 class="feature-title white-text text-uppercase">Lunches</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="card card-body pink lighten-3 hoverable">
+              <i class="fa fa-glass fa-3x mb-4 mt-3 white-text" aria-hidden="true"></i>
+              <h5 class="feature-title white-text text-uppercase">Drinks</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="card card-body indigo lighten-3 hoverable">
+              <i class="fa fa-birthday-cake fa-3x mb-4 mt-3 white-text" aria-hidden="true"></i>
+              <h5 class="feature-title white-text text-uppercase">Cakes</h5>
+            </div>
+          </div>
+          <div class="col-md-3 mb-5">
+            <div class="card card-body deep-orange lighten-3 hoverable">
+              <i class="fa fa-coffee fa-3x mb-4 mt-3 white-text" aria-hidden="true"></i>
+              <h5 class="feature-title white-text text-uppercase">Coffee</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid" style="background-color: #fff4fd;">
+      <div class="container">
+        <div class="row mb-3" id="searchResults">
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #fff4fd;">
+      <div class="container">
+        <section id="blog" class="section extra-margins text-center mt-4 pb-5 pt-1 mb-5">
+          <h2 class="section-heading text-center mb-5 text-uppercase font-weight-bold pt-5 mt-5  " id="Recommended">Recommended Collections</h2>
+          <p class="text-center w-responsive mx-auto   my-5">The Top Collections Sorted on the Basis of the Ratings from round the Globe.Hope You Find Bliss
+                    in Our Collections...
+          </p>
+          <div class="row mb-3" id="topRated">
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #fff4fd;">
+      <div class="container">
+        <section id="blog" class="section extra-margins text-center mt-4 pb-5 pt-1 mb-5">
+          <h2 class="section-heading text-center mb-5 text-uppercase font-weight-bold pt-5 mt-5 "id="MyCollections">My Collections</h2>
+          <p class="text-center w-responsive mx-auto   my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste provident, voluptatum voluptatibus aut modi
+            aspernatur autem impedit, eius, debitis earum voluptatem. Quaerat hic aspernatur laborum.</p>
+
+          <div class="row mb-3" id="myCollections" >
+            </div>
+            <!-- <div class="col-lg-4 col-md-12 mb-5">
+              <div class="card card-cascade narrower">
+                <div class="view overlay zoom">
+                  <img src="./img/card1.jpg" class="card-img-top" alt="">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="red-text">
+                    <i class="fa fa-cutlery"></i> Lunches</h5>
+                  <h4 class="card-title">This is title of the news</h4>
+                  <p class="card-text grey-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                    ex ea commodi.</p>
+                  <a class="btn btn-elegant">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="card card-cascade narrower">
+                <div class="view overlay zoom">
+                  <img src="./img/card2.jpg" class="card-img-top" alt="">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="pink-text">
+                    <i class="fa fa-birthday-cake"></i> Dessert</h5>
+                  <h4 class="card-title">This is title of the news</h4>
+                  <p class="card-text grey-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                    ex ea commodi.</p>
+                  <a class="btn btn-elegant">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+              <div class="card card-cascade narrower">
+                <div class="view overlay zoom">
+                  <img src="./img/card3.jpg" class="card-img-top" alt="">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="cyan-text">
+                    <i class="fa fa-glass"></i> Drink</h5>
+                  <h4 class="card-title">This is title of the news</h4>
+                  <p class="card-text grey-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                    ex ea commodi.</p>
+                  <a class="btn btn-elegant">Button</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <button type="button" class="btn btn-elegant" data-toggle="modal" data-target="#exampleModalCenter" align="right">
+              Show All Collections
+            </button>
+        </section>
+      </div>
+      <footer id="social_icon_footer">
+        <div class="copyright-text">
+          <p>CopyRight © 2018 Digital All Rights Reserved</p>
+        </div>
+        <a href="https://www.facebook.com/" title="facebook">
+          <i id="social-fb" class="fa fa-facebook-square fa-3x social"></i>
+        </a>
+        <a href="https://twitter.com/" title="twitter">
+          <i id="social-tw" class="fa fa-twitter-square fa-3x social"></i>
+        </a>
+        <a href="https://plus.google.com/" title="google">
+          <i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i>
+        </a>
+        <a href="mailto:#" title="mail">
+          <i id="social-em" class="fa fa-envelope-square fa-3x social"></i>
+        </a>
+      </footer>
+    </div>
+  </main>
+
+
+  <!-- Modal -->
+  <div class="modal " id="exampleModalCenter" tabindex="0" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-md " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Creating Collection...</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Name:</label>
+                  <div class="col-sm-06">
+                    <input type="text" class="form-control" id="inputName" placeholder="Collection">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-06">
+                        <button type="submit" class="btn btn-success"id="submit">Save</button>
+                    </div>
+                  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
