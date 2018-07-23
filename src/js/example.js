@@ -134,7 +134,7 @@ searchApi.addEventListener('keyup', (event) => {
           searchResults.appendChild(div);
 
           a1.onclick = function () {
-            retrieveCollections(button.id);
+            retrieveCollections(a1.id);
           }
         });
       });
@@ -208,6 +208,7 @@ function retrieveCollections(id) {
       input.type = "hidden";
       input.id = id;
       form.id = "collectionForm";
+      form.className = "form-group";
       select.id = "selectedCollection";
       option.value = "select";
       option.innerHTML = "--SELECT--";
@@ -244,12 +245,12 @@ function showCollections() {
       myCollection.map(function (collection) {
         var outerDiv = document.createElement('div');
         var div = document.createElement('div');
-        var button = createButton("DELETE");
+        var button = createButton("&#x1f44e;");
         outerDiv.className = "text-center";
         button.id = collection.id;
         button.classList.remove("add");
         button.classList.add("delete");
-        div.className = "myCollection";
+        div.className = "myCollection   card indigo lighten-3 hoverable";
         div.setAttribute("data-toggle", "modal");
         div.setAttribute("data-target", "#myModal")
         div.innerHTML = collection.id;

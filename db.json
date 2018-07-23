@@ -1,8 +1,26 @@
 {
-  "collections": [],
+  "collections": [
+    {
+      "id": "1",
+      "collection": "Srikar",
+      "img": "https://b.zmtcdn.com/data/collections/e140962ec7eecbb851155fe0bb0cd28c_1501223786.jpg",
+      "name": "Trending This Week",
+      "text": "The most popular restaurants in town this week"
+    },
+    {
+      "id": "63",
+      "collection": "Sharma",
+      "img": "https://b.zmtcdn.com/data/collections/a54eb9a04d0075407f3172f4712c9c03_1429785486_l.jpg",
+      "name": "Dhabe di shaan",
+      "text": "Traditional dhaba fare. No-frills, full-flavour."
+    }
+  ],
   "myCollections": [
     {
       "id": "Srikar"
+    },
+    {
+      "id": "Sharma"
     }
   ]
 }
