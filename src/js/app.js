@@ -10,5 +10,8 @@ import 'bootstrap';
 // Material Design Bootstrap
 import '../vendors/mdb/js/mdb';
 
-// Example
-import './example';
+// Custom Js
+import './Global/global';
+import './myCollections/myCollectionController';
+import './recommendedCollections/recommendedCollectionController';
+import './search/searchController';
