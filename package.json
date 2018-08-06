@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development --open",
-    "start": "http-server"
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": {
     "name": "Madipalli Srikar"
