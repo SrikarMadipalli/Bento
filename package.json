@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open",
-    "start":"webpack-dev-server --mode development --open"
+    "dev": "webpack-dev-server --mode development --open"
   },
   "author": {
     "name": "Madipalli Srikar"
